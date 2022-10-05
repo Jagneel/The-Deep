@@ -625,6 +625,10 @@ body {
         text-align: center;
     }
 
+    .testimonial {
+        padding: 30px 120px;
+    }
+
 }
 
 @media (max-width: 769px) {
@@ -691,6 +695,12 @@ body {
         padding-left: 35px
     }
 
+}
+
+@media (max-width: 610px) {
+    .testimonial {
+        padding: 30px 60px;
+    }
 }
 
 @media (max-width: 470px) {
