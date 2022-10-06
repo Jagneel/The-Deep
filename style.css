@@ -52,7 +52,7 @@ body {
 
 header {
     background-color: #1f2937;
-    padding: 0 570px 20px 570px;
+    padding: 1% 20% 1% 20%;
 }
 
 .logo h1 {
@@ -105,7 +105,7 @@ ul a {
 .hero {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .hero h2 {
@@ -161,7 +161,6 @@ ul a {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 0 100px 0 100px;
 }
 
 .articles h4 {
@@ -202,7 +201,7 @@ ul a {
 
 .testimonial {
     background-color: #E5E7EB;
-    padding: 30px 570px;
+    padding: 5% 20%;
 }
 
 .quote p {
@@ -226,7 +225,7 @@ ul a {
     background-color: #3882f6;
     padding: 10px;
     border-radius: 10px;
-    margin: 40px 570px;
+    margin: 6% 20%;
 }
 
 .cta-text {
@@ -365,7 +364,7 @@ footer {
 
 /* About CTA */
 #about-cta {
-    width: 80%;
+    width: 95%;
     margin: 30px 0 0 0;
 }
 
@@ -492,9 +491,6 @@ body {
 /* Media queries */
 
 @media (max-width: 2000px) {
-    header {
-        padding: 20px 300px;
-    }
 
     .about-hero {
         padding: 0;
@@ -521,10 +517,6 @@ body {
         margin-top: 30px;
     }
 
-    .testimonial {
-        padding: 30px 300px 30px 300px;
-    }
-
     .quote p {
         font-size: 18px;
     }
@@ -532,7 +524,7 @@ body {
     .cta {
         flex-direction: column;
         align-items: center;
-        margin: 40px 300px;
+        justify-content: center
     }
 
     .cta-text {
@@ -586,9 +578,6 @@ body {
 }
 
 @media (max-width: 1074px) {
-    header {
-        padding: 20px 100px;
-    }
 
     nav ul {
         display: flex;
@@ -597,10 +586,6 @@ body {
 
     ul a {
         padding-bottom: 5px;
-    }
-
-    .cta {
-        margin: 40px 200px;
     }
 
     .wwd-article p,
@@ -625,17 +610,9 @@ body {
         text-align: center;
     }
 
-    .testimonial {
-        padding: 30px 120px;
-    }
-
 }
 
 @media (max-width: 769px) {
-
-    header {
-        padding: 0 80px;
-    }
 
     .hero img {
         height: 300px;
@@ -649,22 +626,6 @@ body {
 
     .hero button {
         margin: 30px 0;
-    }
-
-    .testimonial {
-        padding: 30px 150px;
-    }
-
-    .cta {
-        margin: 40px 50px 40px 50px;
-    }
-
-    .cta-text {
-        padding-left: 20px;
-    }
-
-    .cta button {
-        margin-right: 20px;
     }
 
     .about-hero-txt,
@@ -697,16 +658,7 @@ body {
 
 }
 
-@media (max-width: 610px) {
-    .testimonial {
-        padding: 30px 60px;
-    }
-}
-
 @media (max-width: 470px) {
-    header {
-        padding: 20px 50px;
-    }
 
     .hero img {
         width: auto;
@@ -731,12 +683,6 @@ body {
     .about-hero-txt p {
         font-size: 14px;
     }
-
-    .cta-btn button {
-        margin: 5px 0;
-    }
-
-
 }
 
 @media (max-width: 660px) {
@@ -772,6 +718,11 @@ body {
 }
 
 @media (max-width: 425px) {
+
+    header {
+        padding: 5% 10%;
+    }
+
     .hero p {
         margin: 0;
         margin-bottom: 10px;
@@ -779,10 +730,6 @@ body {
 
     .hero img {
         margin: 20px 0;
-    }
-
-    .testimonial {
-        padding: 30px 60px 30px 60px;
     }
 
     .quote p {
@@ -794,14 +741,6 @@ body {
         justify-content: center;
     }
 
-    .cta-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0;
-    }
-
     .cta-text h4 {
         font-size: 10px;
     }
@@ -809,11 +748,6 @@ body {
     .cta-text p {
         font-size: 8px;
     }
-
-    .cta button {
-        margin: 0;
-    }
-
 
     .about-hero-txt p {
         font-size: 14px;
@@ -827,8 +761,13 @@ body {
 
 @media (max-width: 400px) {
 
-    header {
-        padding: 10px 15px;
+    .cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 2%;
     }
 
     .hero img {
@@ -842,9 +781,6 @@ body {
 }
 
 @media (max-width: 320px) {
-    header {
-        padding: 10px 10px;
-    }
 
     .wwd-article iframe {
         width: 300px;
@@ -853,6 +789,14 @@ body {
 
     .about-hero-txt {
         padding: 5px;
+    }
+
+    .testimonial p {
+        font-size: 15px;
+    }
+
+    .testimonial h4 {
+        font-size: 17px;
     }
 
 }
